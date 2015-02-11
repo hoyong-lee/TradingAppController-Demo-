@@ -18,7 +18,8 @@ public:
 	~TradingAppWndManager();
 
 	static TradingAppWndManager* getInstance();
-	void EnumWindowProc(HWND hWnd);
+	
+	void		EnumWindowProc(HWND hWnd);
 
 protected:
 
@@ -26,6 +27,11 @@ protected:
 	bool getMDIFrameHwnd();
 	bool getStatusbarWndHandle();
 	bool getTreeViewWndHandle();
+	bool getBuyDlgHwnds();
+	bool getSellDialogHwnds();
+	bool getWithdrawDlgHwnds();
+	bool getMoneyBalanceHwnds();
+	HWND getActiveDlgWnd();
 
 protected:
 
