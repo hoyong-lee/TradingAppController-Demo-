@@ -108,6 +108,7 @@
     <ClInclude Include="TradingAppController.h" />
     <ClInclude Include="TradingAppControllerDoc.h" />
     <ClInclude Include="TradingAppControllerView.h" />
+    <ClInclude Include="TradingAppWndManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainFrm.cpp" />
@@ -118,6 +119,7 @@
     <ClCompile Include="TradingAppController.cpp" />
     <ClCompile Include="TradingAppControllerDoc.cpp" />
     <ClCompile Include="TradingAppControllerView.cpp" />
+    <ClCompile Include="TradingAppWndManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="TradingAppController.rc" />
